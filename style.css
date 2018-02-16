@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Oregano);
+
+body {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'cursive', serif;
+}
+
+li {
+    text-align: left;
+}
+
+a, a:visited {
+    color: blue;
+}
+
+.icon {
+    width: 128px;
+    height: 128px;
+    margin: 2px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon.fail {
+    background-color: red;
+}
+
+.icon.wolf {
+    background-image: url(http://www.clker.com/cliparts/4/c/3/c/1197088827763885081johnny_automatic_paper_shears.svg.hi.png}
+
+.icon.goat {
+    background-image: url(img/goat.png);
+}
+
+.icon.cabbage {
+    background-image: url(img/lettuce.png);
+}
+
+.icon.river {
+    background-image: url(img/ele_water.png);
+}
+
+.icon.boat {
+    background-image: url(img/boat.png);
+}
