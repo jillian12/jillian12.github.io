@@ -1,7 +1,7 @@
 body {
   font-family: 'georgia', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -20,7 +20,7 @@ h6 {
   font-family: 'cursive', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: black;
 }
 
 h1 {
@@ -28,9 +28,10 @@ h1 {
   line-height: 5.5rem;
 }
 
-h2 {
+h2 { 
   font-size: 3.5rem;
 }
+h4 {color: #8f2ab7;}
 
 .subheading {
   text-transform: uppercase;
@@ -56,7 +57,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #purple;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -131,17 +132,22 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #8f2ab7 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #8f2ab7 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #8f2ab7;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #8f2ab7;
 }
+
+
+
+
+
