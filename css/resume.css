@@ -11,7 +11,15 @@ body {
   }
 }
 
-h1,
+h1 {
+  font-size: 5rem;
+  line-height: 5.5rem;
+  font-family: 'cursive', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
 h2,
 h3,
 h4,
@@ -23,10 +31,6 @@ h6 {
   color: black;
 }
 
-h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
-}
 
 h2 { 
   font-size: 3.5rem;
@@ -45,7 +49,7 @@ h4 {color: #8f2ab7;}
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #eac368;
 }
 
 .list-social-icons a .fa-lg {
@@ -84,7 +88,7 @@ h4 {color: #8f2ab7;}
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #d8abea;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -106,7 +110,7 @@ h4 {color: #8f2ab7;}
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #d8abea;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
@@ -144,7 +148,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #8f2ab7;
+  color: #eac368;
 }
 
 
